@@ -7,7 +7,7 @@
 */
 
 function createAndAccessSheet(){
-  const sheetApp = SpreadSheetApp.getActiveSpread();
+  const sheetApp = SpreadsheetApp.getActiveSpreadsheet();
   sheetApp.insertSheet("test sheet")
   const sheet = sheetApp.getSheetByName("test sheet")
 }
@@ -29,8 +29,8 @@ function readDataFromSheet(){
   const data1 = sheet.getRange("A1").getValue();
   const data2 = sheet.getRange("B1").getValue();
 
-  Logger.log("データ1: " + data1);
-  Logger.log("データ2: " + data2);
+  console.log("データ1: " + data1);
+  console.log("データ2: " + data2);
 }
 
 function getAllRecords(){
@@ -41,6 +41,6 @@ function getAllRecords(){
   const data = sheet.getDataRange().getValues();
 
   for (var i = 0; i < data.length; i++) {
-    Logger.log("レコード " + (i + 1) + ": " + data[i].join(", "));
+    console.log("レコード " + (i + 1) + ": " + data[i].join(", "));
   }
 }
