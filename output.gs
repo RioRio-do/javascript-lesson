@@ -10,6 +10,8 @@
 // 文字列(string)
 function outString() {
   console.log("文字列(string): Hello, World");
+
+  // TODO 「こんにちは」と出力するプログラムを作成してください
 }
 
 // 数字(number)
@@ -24,6 +26,10 @@ function outNumber(){
   console.log("数字(number): 1 ÷ 2 =", 1 / 2);
 
   // 剰余, 指数, など...
+
+  // TODO 1から5までの整数の和を計算するプログラムを作成してください
+
+  // TODO 5の階乗を計算するプログラムを作成してください
 }
 
 // 真偽(bool)

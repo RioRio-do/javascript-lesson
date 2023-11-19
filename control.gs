@@ -13,11 +13,21 @@ function controlIf() {
 
   let age = 20;
 
+  // 判別式
+  // age == 18  : ageが18で実行
+  // age < 18   : ageが18より小さければ実行
+  // age > 18   : ageが18より大きければ実行
+  // age <= 18  : ageが18未満で実行
+  // age >= 18   : ageが18以上で実行
   if (age >= 18) {
     console.log("成人です。");
   } else {
     console.log("未成年です。");
   }
+
+  // TODO 変数priceを作成し、正の整数を代入しなさい
+
+  // TODO 変数priceが100円より大きければ「高い！」、小さければ「安い！」と出力するプログラムを作成しなさい
 }
 
 // switch文: 複数の条件分岐
@@ -45,6 +55,8 @@ function controlForCount() {
   for (let i = 1; i <= 5; i++) {
     console.log("繰り返し回数: " + i);
   }
+
+  // TODO 5から1まで数え下げるプログラムを作成しなさい
 }
 
 // for...ofループ: 配列要素のイテレーション
@@ -54,7 +66,7 @@ function controlForOf() {
   const colors = ["赤", "青", "緑", "黄", "紫"];
 
   for (const color of colors) {
-    console.log("色: " + color);
+    console.log("色: ",color);
   }
 }
 

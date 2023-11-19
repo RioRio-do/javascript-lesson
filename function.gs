@@ -15,10 +15,11 @@ function calc2() {
   console.log("1 + 1 = ",1 + 1)
 }
 
+// TODO 「こんにちは」と出力する関数を作成しなさい
 
 // パラメータ: 関数にデータを渡す
 function functionParameter(){
-  out1ToN()
+  out1ToN(n)
 }
 
 function out1ToN(n){
@@ -27,6 +28,7 @@ function out1ToN(n){
   }
 }
 
+// TODO 正の整数nを受け取り、nから1まで数え下げる関数を作成しなさい
 
 // 戻り値: 関数からデータを受け取る
 function functionReturn(){
@@ -42,3 +44,5 @@ function sum1ToN(n){
   }
   return sum
 }
+
+// TODO 正の整数nを受け取り、nの階乗を返す関数を作成しなさい
