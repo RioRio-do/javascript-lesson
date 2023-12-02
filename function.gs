@@ -8,7 +8,7 @@
 
 // 宣言と呼び出し
 function functionDefAndCall(){
-  calc2()
+  console.log("10! = ",factorial(10));
 }
 
 function calc2() {
@@ -16,6 +16,9 @@ function calc2() {
 }
 
 // TODO 「こんにちは」と出力する関数を作成しなさい
+function say_hello(){
+  console.log("こんにちは");
+}
 
 // パラメータ: 関数にデータを渡す
 function functionParameter(){
@@ -29,6 +32,11 @@ function out1ToN(n){
 }
 
 // TODO 正の整数nを受け取り、nから1まで数え下げる関数を作成しなさい
+function countDown(n) {
+  for(let i = n; i>=1; i--){
+    console.log(i);
+  }
+}
 
 // 戻り値: 関数からデータを受け取る
 function functionReturn(){
@@ -46,3 +54,10 @@ function sum1ToN(n){
 }
 
 // TODO 正の整数nを受け取り、nの階乗を返す関数を作成しなさい
+function factorial(n) {
+  if(n != 1){
+    return n * factorial(n - 1)
+  }else{
+    return 1
+  }
+}

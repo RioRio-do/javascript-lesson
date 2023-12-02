@@ -16,6 +16,8 @@ function storeData() {
   console.log("年齢: ",age);
 
   // TODO 変数movieを作成し、好きな映画の名前を入力しなさい
+  let movie = "Mission Impossible"
+  console.log(movie);
 }
 
 // 配列(Array): 複数のデータ要素をリストとして格納するためのコンテナ
@@ -34,8 +36,10 @@ function storeArrayData() {
   console.log("配列の長さ: " ,fruits.length);
 
   // TODO 配列numbersを作成し、好きな整数三つで初期化しなさい
+  let numbers = [57, 495, 1729];//グロタンディーク素数、カプレカ数、タクシー数
 
   //TODO 配列numbersのすべての要素の和を出力しなさい
+  console.log(numbers[0] + numbers[1] + numbers[2]);//合計は素数
 }
 
 // オブジェクト(Object): 関連データをキーと値のペアとして格納するためのコンテナ

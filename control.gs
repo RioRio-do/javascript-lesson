@@ -26,8 +26,14 @@ function controlIf() {
   }
 
   // TODO 変数priceを作成し、正の整数を代入しなさい
+  let price = 120;
 
   // TODO 変数priceが100円より大きければ「高い！」、小さければ「安い！」と出力するプログラムを作成しなさい
+  if (price > 100) {
+    console.log("高い！");
+  } else {
+    console.log("安い！");
+  }
 }
 
 // switch文: 複数の条件分岐
@@ -57,6 +63,9 @@ function controlForCount() {
   }
 
   // TODO 5から1まで数え下げるプログラムを作成しなさい
+  for (let i = 5; i >=1; i--) {
+    console.log("繰り返し回数：" + i);
+  }
 }
 
 // for...ofループ: 配列要素のイテレーション

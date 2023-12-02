@@ -12,6 +12,7 @@ function outString() {
   console.log("文字列(string): Hello, World");
 
   // TODO 「こんにちは」と出力するプログラムを作成してください
+  console.log("こんにちは");
 }
 
 // 数字(number)
@@ -28,8 +29,10 @@ function outNumber(){
   // 剰余, 指数, など...
 
   // TODO 1から5までの整数の和を計算するプログラムを作成してください
+  console.log("1 + 2 + 3 + 4 + 5 = ", 1 + 2 + 3 + 4 + 5);
 
   // TODO 5の階乗を計算するプログラムを作成してください
+  console.log("5! = ", 5 * 4 * 3 * 2 * 1);
 }
 
 // 真偽(bool)
